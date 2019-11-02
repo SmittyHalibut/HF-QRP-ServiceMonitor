@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:RF Deck-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1103,14 +1104,10 @@ Connection ~ 3500 1100
 Wire Wire Line
 	3700 1100 3900 1100
 Connection ~ 3700 1100
-Text GLabel 8900 2450 0    50   Input ~ 0
-Tx_Rx
 Wire Wire Line
 	8900 1800 9100 1800
 Wire Wire Line
 	9100 1900 8900 1900
-Wire Wire Line
-	9100 2450 8900 2450
 Wire Wire Line
 	9600 1800 9700 1800
 Wire Wire Line
@@ -1384,19 +1381,6 @@ F 3 "~" H 3200 2550 50  0001 C CNN
 	1    3200 2550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDD #PWR0146
-U 1 1 5D89C61A
-P 9000 2550
-F 0 "#PWR0146" H 9000 2300 50  0001 C CNN
-F 1 "GNDD" H 9004 2395 50  0000 C CNN
-F 2 "" H 9000 2550 50  0001 C CNN
-F 3 "" H 9000 2550 50  0001 C CNN
-	1    9000 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 2550 9100 2550
 Wire Wire Line
 	6250 2650 6250 2500
 Connection ~ 6250 2500
